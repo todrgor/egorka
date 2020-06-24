@@ -26,6 +26,8 @@ Route::get ('/poisk', 'ApiController@poiskAction' );
 
 Route::get ('/poleznoe', 'ApiController@poleznoeAction' );
 
+Route::get ('/productu', 'ApiController@productuAction' );
+
 Route::get ('/pro_nas', 'ApiController@pro_nasAction' );
 
 Route::get ('/pro_nas-konstitucia', 'ApiController@pro_nas_konstituciaAction' );
@@ -43,4 +45,6 @@ Route::get ('/vhod', 'ApiController@vhodAction' );
 Route::get ('/zabul-parol', 'ApiController@zabul_parolAction' );
 
 Route::get ('/zakazat', 'ApiController@zakazatAction' );
+
+Route::get ('/obuchenie', 'ApiController@obuchenieAction' );
 

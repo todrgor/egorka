@@ -1,123 +1,107 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    @extends("layouts.down")
+    @section("title")
         <title>Оформление заказа ~ Дизайн-студия Иванова Егора «Жаренное Мясо»</title>
-        <link rel="stylesheet" href="main.css">
-        <link rel="icon" type="image/png" href="images/favicon.ico" sizes="48x48">
-    </head>
+    @endsection("title")
+    
+    @section("down")
+    @endsection("down")
     
     <body>
         <div class="hello-block-zakaz">
-            <h1>Страница заказа</h1>
-            <p>Сделать/проверить заказ</p>
+            <h1>Заказать что-либо</h1>
+            <p>Побалуйте себя качеством наших услуг</p>
         </div>
         
-        <div class="poisk-page">
-                <h1>
-                    Поиск
-                </h1>
-                <h4>
-                    Введите, что хотели бы найти на сайте
-                </h4>
-                <form action="poisk.php">
-                    <input placeholder="Жаренное мясо адекватность" size="40">
-                    <div class="poisk-page-fon">
-                        <input type="submit" value="">
-                    </div>
-                </form> 
-            </div>
-        
-        <div class="big-footer">
-            <div class="big-footer-2">
-                <div class="big-footer-text">
-                    <p>Дизайн-студия Иванова Егора «Жаренное Мясо»</p>
-                    <p>2020г. — ∞</p>
-                    <p>Все права возможно защищены.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="mini-footer">
+        <div class="zakaz-all">
+            <p class="zakaz-vvedenie">Здесь собраны все товары и все услуги нашей студии, которые она естественно блестяще выполняет и оставляет заказчиков только в радости и наверне в шоке от такого высокого уровня качества работ. Закажите и вы, точно будете довольны.</p>
             
-            <div class="to-up-to-zakaz">
-            <div class="to-zakaz">
-                <a href="#zakazat~">Заказать дизайн</a>
-            </div>
-            <div class="to-up">
-                <div class="to-up-2">
-                </div>
-            </div>
-        </div>
-            <ul class="submenu-3">
-                <li><a href="/">Новое</a></li>
-                <li><a href="/poleznoe">Полезное</a></li>
-                <li><a href="/rabotu">Наши работы</a></li>
-                <li><a href="/pro_nas">О нас & контакты</a></li>
-                <li><a href="/p">Наши продукты</a></li>
-                <li><a href="#">Обучение</a></li>
-                <li><a href="/zakazat">Заказать</a></li>
-            </ul>
-        
-            <div class="header-cloced">
-            <div class="header-cloced-logo">
-                <a href="/">
-                </a>
-            </div>
-            <div class="header-cloced-knopka">
-                <div class="header-cloced-knopka-img">
-                    <div class="header-cloced-knopka-img-2">
-
+            <ul>
+                <li>
+                    <div class="zakaz-odin-img" id="zakaz-odin-img-logo">
+                    <h1>Логотип</h1>
+                    <p>Передаст нужные эмоции, выделит ваш бренд, будет шикарно смотреться на мерче</p>
+                    <a href="/zakazat">Заказать</a>
                     </div>
-                </div>
-                <div class="full-menu">
-                    <div class="part-1">
-                        <div class="part-1-up">
-                            <div class="header-opened-photo-i-podpis">
-                               <div class="header-opened-photo">
-                                   <p>Здесь будет ваше фото.</p>
-                                </div>
-                                <div class="header-opened-podpis">
-                                    <h1>Егор Иванов</h1>
-                                    <p>Ведущий дизайнер</p>
-                                </div>
-                            </div>
-                            <div class="accaunt-vozmozhnosti">
-                                <ul class="submenu-1">
-                                    <li><a href="/vhod">Войти</a></li>
-                                    <li><a href="/nastroyki">Настройки</a></li>
-                                    <li><a href="/korzina">Корзина</a></li>
-                                    <li><a href="/poisk">Поиск</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="poisk-v-menu">
-                            <form action="poisk.php">
-                                <input placeholder="Например: Сколько стоит сделать сайт" size="40">
-                                <div class="poisk-fon-v-menu">
-                                    <input type="submit" value="">
-                                </div>
-                            </form> 
-                        </div>
+                </li>
+                
+                <li>
+                    <div class="zakaz-odin-img" id="zakaz-odin-img-interface">
+                    <h1>Интерфейс</h1>
+                    <p>Будет удбен в пользовании и информативен по задаче. Выдержан в общем стиле компании и гармонично смоотрится.</p>
+                    <a href="/zakazat">Заказать</a>
                     </div>
-                    <div class="part-2">
-                        <ul class="submenu-2">
-                            <li><a href="/index">Новое</a></li>
-                            <li><a href="/poleznoe">Полезное</a></li>
-                            <li><a href="/rabotu">Наши работы</a></li>
-                            <li><a href="/pro_nas">О нас & контакты</a></li>
-                            <li><a href="p">Наши продукты</a></li>
-                            <li><a href="#">Обучение</a></li>
-                            <li class="na-etoy-stranice"><a href="/zakazat">Заказать</a></li>
-                        </ul>
+                </li>
+                
+                <li>
+                    <div class="zakaz-odin-img" id="zakaz-odin-img-site">
+                    <h1>Сайт</h1>
+                    <p>Его пользователям будет приятно и вместе с тем удобно пользоваться сайтом вашей компании, отлично работает в связке с дизайном логотипа.</p>
+                    <a href="/zakazat">Заказать</a>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="zakaz-odin-img" id="zakaz-odin-img-exterier">
+                    <h1>Экстерьер</h1>
+                    <p>Ваша внешняя среда будет приятно гармоничной, комфортной и проосто невероятно как космос великолепной.</p>
+                    <a href="/zakazat">Заказать</a>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="zakaz-odin-img" id="zakaz-odin-img-interier">
+                    <h1>Интерьер</h1>
+                    <p>Он будет просто идеальным.</p>
+                    <a href="/zakazat">Заказать</a>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="zakaz-odin-img" id="zakaz-odin-img-merch">
+                    <h1>Мерч</h1>
+                    <p>Самый стильный собственный мерч.</p>
+                    <a href="/zakazat">Заказать</a>
+                    </div>
+                </li>
+                    
+                <li>
+                    <div class="zakaz-odin-img" id="zakaz-odin-img-isistem">
+                    <h1>Информационная система</h1>
+                    <p>Погрузиться и не умереть от дискомфорта. С комфортом работать.</p>
+                    <a href="/zakazat">Заказать</a>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="zakaz-odin-img" id="zakaz-odin-img-navigation">
+                    <h1>Навигация</h1>
+                    <p>Выглядит органично и ненагруженно.</p>
+                    <a href="/zakazat">Заказать</a>
                     </div>
                     
-                </div>
-            </div>
+                </li>
+                
+                <li>
+                    <div class="zakaz-odin-img" id="zakaz-odin-img-buclet">
+                    <h1>Буклет</h1>
+                    <p>На случай, если надо.</p>
+                    <a href="/zakazat">Заказать</a>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="zakaz-odin-img" id="zakaz-odin-img-other">
+                    <h1>Другое</h1>
+                    <p>Что-то координально другое.</p>
+                    <a href="/zakazat">Другое</a>
+                    </div>
+                </li>
+                
+            </ul>
         </div>
-    
-        </div>
+        
         
     </body>
 </html>

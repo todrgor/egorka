@@ -35,6 +35,10 @@ class ApiController extends Controller
     {
       return view('poleznoe');  
     }
+    public function productuAction()
+    {
+      return view('productu');  
+    }
     
     public function pro_nasAction()
     {
@@ -79,6 +83,11 @@ class ApiController extends Controller
     public function zakazatAction()
     {
       return view('zakazat');  
+    }
+    
+    public function obuchenieAction()
+    {
+      return view('obuchenie');  
     }
     
     

@@ -1815,6 +1815,308 @@ ul{
 
 
 
+.zakaz-all{
+    padding: 0% 10% 0;
+    background: #e67e4e;
+    width: 80%;
+    min-height: 50px;
+    float: left;
+    color: #fff6f3;
+}
+
+.zakaz-vvedenie{
+    font-size: 16px;
+    width: 70%;
+}
+
+.zakaz-all li{
+    padding: 2% 2% 1%;
+    background: linear-gradient(to right, #e26329, #f1793c);
+    width: 95.65%;
+    float: left;
+    color: #fff6f3;
+    border: 2px solid #b75326;
+    margin: 1% 0;
+    letter-spacing: 1px;
+}
+
+.zakaz-odin-img p{
+    font-size: 15px;
+    margin: 0;
+    width: 90%;
+}
+
+.zakaz-odin-img h1{
+    font-size: 20px;
+    margin: 0;
+}
+
+.zakaz-odin-img a{
+    padding: 1% 2%;
+    background: #b75326;
+    float: left;
+    color: #fff6f3;
+    margin: 1% 0 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+#zakaz-odin-img-logo{
+    background: url(pikchers/productu-odin-img-logo.svg) no-repeat;
+    background-size: 5%;
+    background-position: right;
+}
+
+#zakaz-odin-img-interface{
+    background: url(pikchers/productu-odin-img-interface.svg) no-repeat;
+    background-size: 5%;
+    background-position: right;
+}
+
+#zakaz-odin-img-site{
+    background: url(pikchers/productu-odin-img-site.svg) no-repeat;
+    background-size: 5%;
+    background-position: right;
+}
+
+#zakaz-odin-img-exterier{
+    background: url(pikchers/productu-odin-img-exterier.svg) no-repeat;
+    background-size: 5%;
+    background-position: right;
+}
+
+#zakaz-odin-img-interier{
+    background: url(pikchers/productu-odin-img-interier.svg) no-repeat;
+    background-size: 5%;
+    background-position: right;
+}
+
+#zakaz-odin-img-merch{
+    background: url(pikchers/productu-odin-img-merch.svg) no-repeat;
+    background-size: 5%;
+    background-position: right;
+}
+
+#zakaz-odin-img-isistem{
+    background: url(pikchers/productu-odin-img-isistem.svg) no-repeat;
+    background-size: 5%;
+    background-position: right;
+}
+
+#zakaz-odin-img-navigation{
+    background: url(pikchers/productu-odin-img-navigation.svg) no-repeat;
+    background-size: 5%;
+    background-position: right;
+}
+
+#zakaz-odin-img-buclet{
+    background: url(pikchers/productu-odin-img-buclet.svg) no-repeat;
+    background-size: 5%;
+    background-position: right;
+}
+
+#zakaz-odin-img-other{
+    background: url(pikchers/productu-odin-img-other.svg) no-repeat;
+    background-size: 5%;
+    background-position: right;
+}
+
+
+
+
+
+
+
+
+.productu-all{
+    padding: 0% 10% 0;
+    background: #e67e4e;
+    width: 80%;
+    min-height: 50px;
+    float: left;
+    color: #fff6f3;
+}
+
+.productu-vvedenie{
+    font-size: 16px;
+    width: 70%;
+}
+
+.productu-all li{
+    padding: 0;
+    background: linear-gradient(to right, #e26329, #f1793c);
+    width: 31%;
+    min-height: 400px;
+    float: left;
+    color: #fff6f3;
+    border: 2px solid #b75326;
+    margin: 0.5% 1% 1% 0;
+    letter-spacing: 1px;
+}
+
+.productu-odin-img p{
+    font-size: 15px;
+    margin: 0;
+    width: 90%;
+}
+
+.productu-odin-img h1{
+    font-size: 17px;
+    margin: 0;
+}
+
+.productu-odin-img a{
+    padding: 1% 2%;
+    background: #b75326;
+    float: left;
+    color: #fff6f3;
+    margin: 1% 0 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.productu-odin-foto{
+    background: linear-gradient(to right, #ffd3b1, #ffd3b196);
+    width: 100%;
+    height: 200px;
+}
+
+.productu-odin-img{
+    margin: 3% 5%;
+}
+
+#productu-odin-foto-krasivuy{
+    background: url(pikchers/productu-odin-foto-krasivuy.png) no-repeat;
+}
+
+#productu-odin-foto-forpassword{
+    background: url(pikchers/productu-odin-foto-forpassword.png) no-repeat;
+}
+
+#productu-odin-foto-vsegeroi{
+    background: url(pikchers/productu-odin-foto-vsegeroi.png) no-repeat;
+}
+
+#productu-odin-foto-futbolka{
+    background: url(pikchers/productu-odin-foto-futbolka.png) no-repeat;
+}
+
+#productu-odin-foto-konstruccii{
+    background: url(pikchers/productu-odin-foto-konstruccii.png) no-repeat;
+}
+
+#productu-odin-foto-gerbera{
+    background: url(pikchers/productu-odin-foto-gerbera.png) no-repeat;
+}
+
+#productu-odin-foto-kovodstvo{
+    background: url(pikchers/productu-odin-foto-kovodstvo.png) no-repeat;
+}
+
+#productu-odin-foto-tipografika{
+    background: url(pikchers/productu-odin-foto-tipografika.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.obuchenie-odin-foto{
+    width: 100%;
+    height: 300px;
+    background: #ffd3b1;
+    margin: 0 0 5%;
+}
+
+#obuchenie-odin-foto-1{
+    background: url(pikchers/obuchenie-odin-foto-1.jpg) no-repeat;
+}
+
+#obuchenie-odin-foto-2{
+    background: url(pikchers/obuchenie-odin-foto-2.jpg) no-repeat;
+}
+
+.obuchenie-odin-img{
+    margin: 0 5%;
+}
+
+.obuchenie-odin-img p{
+    font-size: 15px;
+    margin: 0;
+    width: 90%;
+}
+
+.obuchenie-odin-img h1{
+    font-size: 20px;
+    margin: 0;
+}
+
+.obuchenie-odin-img a{
+    padding: 0.5%;
+    background: #b75326;
+    float: left;
+    color: #fff6f3;
+    margin: 1% 0 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+#obuchenie-odin-img-mini-1{
+    padding: 0;
+    background: linear-gradient(to right, #e26329, #f1793c);
+    width: 49%;
+    min-height: 450px;
+    float: left;
+    color: #fff6f3;
+    border: 2px solid #b75326;
+    margin: 1% 1% 0 0;
+    letter-spacing: 1px;
+}
+
+#obuchenie-odin-img-mini-2{
+    padding: 0;
+    background: linear-gradient(to right, #e26329, #f1793c);
+    width: 49%;
+    min-height: 450px;
+    float: right;
+    color: #fff6f3;
+    border: 2px solid #b75326;
+    margin: 1% 0% 0 0;
+    letter-spacing: 1px;
+}
+
+#obuchenie-odin-img-mini-3{
+    width: 99.5%;
+    min-height: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
