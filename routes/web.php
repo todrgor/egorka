@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get ('/', 'ApiController@indexAction' );
-
 Route::get ('/index', 'ApiController@indexAction' );
 
 Route::get ('/test', 'ApiController@testAction' );
@@ -27,13 +26,13 @@ Route::get ('/poisk', 'ApiController@poiskAction' );
 
 Route::get ('/poleznoe', 'ApiController@poleznoeAction' );
 
-Route::get ('/pro nas', 'ApiController@pro_nasAction' );
+Route::get ('/pro_nas', 'ApiController@pro_nasAction' );
 
-Route::get ('/pro nas-konstitucia', 'ApiController@pro_nas_konstituciaAction' );
+Route::get ('/pro_nas-konstitucia', 'ApiController@pro_nas_konstituciaAction' );
 
-Route::get ('/pro nas-sostav', 'ApiController@pro_nas_sostavAction' );
+Route::get ('/pro_nas-sostav', 'ApiController@pro_nas_sostavAction' );
 
-Route::get ('/pro nas-svyaz', 'ApiController@pro_nas_svyazAction' );
+Route::get ('/pro_nas-svyaz', 'ApiController@pro_nas_svyazAction' );
 
 Route::get ('/rabotu', 'ApiController@rabotuAction' );
 

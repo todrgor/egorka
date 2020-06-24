@@ -20,8 +20,8 @@
                 <ul>
                     <li><p>Логин</p><input placeholder="Владимир Владимирович 247" size="40"></li>
                     <li><p>Пароль</p><input type="password" placeholder="Крым это искусство которое наше" size="40"></li>
-                    <li><input type="submit" value="Войти"></li>
-                    <li><a href="zabul-parol.html">Забыл пароль</a><a href="registraciya.html">Регистрация</a></li>
+                    <li><a href="/"><input type="submit" value="Войти"></a></li>
+                    <li><a href="/zabul-parol">Забыл пароль</a><a href="/registraciya">Регистрация</a></li>
                 </ul>
             </form> 
         </div>
@@ -48,18 +48,18 @@
             </div>
         </div>
             <ul class="submenu-3">
-                <li><a href="index.html">Новое</a></li>
-                <li><a href="poleznoe.html">Полезное</a></li>
-                <li><a href="rabotu.html">Наши работы</a></li>
-                <li><a href="pro%20nas.html">О нас & контакты</a></li>
-                <li><a href="p">Наши продукты</a></li>
+                <li><a href="/">Новое</a></li>
+                <li><a href="/poleznoe">Полезное</a></li>
+                <li><a href="/rabotu">Наши работы</a></li>
+                <li><a href="/pro_nas">О нас & контакты</a></li>
+                <li><a href="/p">Наши продукты</a></li>
                 <li><a href="#">Обучение</a></li>
-                <li><a href="zakazat.html">Заказать</a></li>
+                <li><a href="/zakazat">Заказать</a></li>
             </ul>
         
             <div class="header-cloced">
             <div class="header-cloced-logo">
-                <a href="index.html">
+                <a href="/">
                 </a>
             </div>
             <div class="header-cloced-knopka">
@@ -83,9 +83,9 @@
                             <div class="accaunt-vozmozhnosti">
                                 <ul class="submenu-1">
                                     <li class="na-etoy-stranice"><a href="vhod.html">Войти</a></li>
-                                    <li><a href="nastroyki.html">Настройки</a></li>
-                                    <li><a href="korzina.html">Корзина</a></li>
-                                    <li><a href="poisk.html">Поиск</a></li>
+                                    <li><a href="/nastroyki">Настройки</a></li>
+                                    <li><a href="/korzina">Корзина</a></li>
+                                    <li><a href="/poisk">Поиск</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -100,13 +100,13 @@
                     </div>
                     <div class="part-2">
                         <ul class="submenu-2">
-                            <li><a href="index.html">Новое</a></li>
-                            <li><a href="poleznoe.html">Полезное</a></li>
-                            <li><a href="rabotu.html">Наши работы</a></li>
-                            <li><a href="pro%20nas.html">О нас & контакты</a></li>
+                            <li><a href="/index">Новое</a></li>
+                            <li><a href="/poleznoe">Полезное</a></li>
+                            <li><a href="/rabotu">Наши работы</a></li>
+                            <li><a href="/pro_nas">О нас & контакты</a></li>
                             <li><a href="p">Наши продукты</a></li>
                             <li><a href="#">Обучение</a></li>
-                            <li><a href="zakazat.html">Заказать</a></li>
+                            <li><a href="/zakazat">Заказать</a></li>
                         </ul>
                     </div>
                     

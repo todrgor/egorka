@@ -54,10 +54,10 @@
         <div class="pro-nas-konstitucia-all">
             <div class="pro-nas-p1">
                 <ul>
-                    <li><a href="pro%20nas.html">Кто мы</a></li>
-                    <li class="pro-nas-vubrano-eto"><a href="pro%20nas-konstitucia.html">Конституция</a></li>
-                    <li><a href="pro%20nas-sostav.html">Состав</a></li>
-                    <li><a href="pro%20nas-svyaz.html">Связь</a></li>
+                    <li><a href="/pro_nas">Кто мы</a></li>
+                    <li class="pro-nas-vubrano-eto"><a href="/pro_nas-konstitucia">Конституция</a></li>
+                    <li><a href="/pro_nas-sostav">Состав</a></li>
+                    <li><a href="/pro_nas-svyaz">Связь</a></li>
                 </ul>
                 
                 <p>1. Студия Иванова является Центром Вселенной со своим флагом, гимном и логотипом. Внутренняя политика Студии направлена на создание условий, обеспечивающих достойную жизнь и свободное развитие сотрудников.</p>
@@ -129,18 +129,18 @@
             </div>
         </div>
             <ul class="submenu-3">
-                <li><a href="index.html">Новое</a></li>
-                <li><a href="poleznoe.html">Полезное</a></li>
-                <li><a href="rabotu.html">Наши работы</a></li>
-                <li><a href="pro%20nas.html">О нас & контакты</a></li>
-                <li><a href="p">Наши продукты</a></li>
+                <li><a href="/">Новое</a></li>
+                <li><a href="/poleznoe">Полезное</a></li>
+                <li><a href="/rabotu">Наши работы</a></li>
+                <li><a href="/pro_nas">О нас & контакты</a></li>
+                <li><a href="/p">Наши продукты</a></li>
                 <li><a href="#">Обучение</a></li>
-                <li><a href="zakazat.html">Заказать</a></li>
+                <li><a href="/zakazat">Заказать</a></li>
             </ul>
         
             <div class="header-cloced">
             <div class="header-cloced-logo">
-                <a href="index.html">
+                <a href="/">
                 </a>
             </div>
             <div class="header-cloced-knopka">
@@ -163,10 +163,10 @@
                             </div>
                             <div class="accaunt-vozmozhnosti">
                                 <ul class="submenu-1">
-                                    <li><a href="vhod.html">Войти</a></li>
-                                    <li><a href="nastroyki.html">Настройки</a></li>
-                                    <li><a href="korzina.html">Корзина</a></li>
-                                    <li><a href="poisk.html">Поиск</a></li>
+                                    <li><a href="/vhod">Войти</a></li>
+                                    <li><a href="/nastroyki">Настройки</a></li>
+                                    <li><a href="/korzina">Корзина</a></li>
+                                    <li><a href="/poisk">Поиск</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -181,13 +181,13 @@
                     </div>
                     <div class="part-2">
                         <ul class="submenu-2">
-                            <li><a href="index.html">Новое</a></li>
-                            <li><a href="poleznoe.html">Полезное</a></li>
-                            <li><a href="rabotu.html">Наши работы</a></li>
-                            <li class="na-etoy-stranice"><a href="pro%20nas.html">О нас & контакты</a></li>
+                            <li><a href="/index">Новое</a></li>
+                            <li><a href="/poleznoe">Полезное</a></li>
+                            <li><a href="/rabotu">Наши работы</a></li>
+                            <li class="na-etoy-stranice"><a href="/pro_nas">О нас & контакты</a></li>
                             <li><a href="p">Наши продукты</a></li>
                             <li><a href="#">Обучение</a></li>
-                            <li><a href="zakazat.html">Заказать</a></li>
+                            <li><a href="/zakazat">Заказать</a></li>
                         </ul>
                     </div>
                     

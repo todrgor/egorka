@@ -13,7 +13,7 @@
             <h1>
                 Не забывайте пароль!
             </h1>
-            <a href="vhod.html">Понял</a>
+            <a href="/vhod">Понял</a>
         </div>
         
         <div class="big-footer">
@@ -38,18 +38,18 @@
             </div>
         </div>
             <ul class="submenu-3">
-                <li><a href="index.html">Новое</a></li>
-                <li><a href="poleznoe.html">Полезное</a></li>
-                <li><a href="rabotu.html">Наши работы</a></li>
-                <li><a href="pro%20nas.html">О нас & контакты</a></li>
-                <li><a href="p">Наши продукты</a></li>
+                <li><a href="/">Новое</a></li>
+                <li><a href="/poleznoe">Полезное</a></li>
+                <li><a href="/rabotu">Наши работы</a></li>
+                <li><a href="/pro_nas">О нас & контакты</a></li>
+                <li><a href="/p">Наши продукты</a></li>
                 <li><a href="#">Обучение</a></li>
-                <li><a href="zakazat.html">Заказать</a></li>
+                <li><a href="/zakazat">Заказать</a></li>
             </ul>
         
             <div class="header-cloced">
             <div class="header-cloced-logo">
-                <a href="index.html">
+                <a href="/">
                 </a>
             </div>
             <div class="header-cloced-knopka">
