@@ -51,6 +51,7 @@
     </head>
     
     <body>
+        
         <div class="hello-block">
             <div class="is-who" id="is-who">
                 <div class="dlya-hover">
@@ -92,90 +93,16 @@
         
         <div class="last-novosti-block">
             <h1>Из нового</h1>
-            <div class="last-novosti-odin" id="argus">
+            
+            @foreach($index as $index)
+            <div class="last-novosti-odin" id="{{$index->url_foto}}">
                 <div class="dlya-hover-2">
                     <a href="/rabotu" class="ssulka-full-block">
-                        <h1>Логотип компании «Агрус»</h1>
+                        <h1>{{$index->title}}</h1>
                     </a>
                 </div>
             </div>
-            <div class="last-novosti-odin" id="ten-fellas-600">
-                <div class="dlya-hover-2">
-                    <a href="/rabotu">
-                        <h1>Логотип барбершопа «Тен фэллас»</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="last-novosti-odin" id="moscow-zoo-identity-animals">
-                <div class="dlya-hover-2">
-                    <a href="/rabotu">
-                        <h1>Бренд-стратегия и айдентика Московского зоопарка</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="last-novosti-odin" id="vista-600b">
-                <div class="dlya-hover-2">
-                    <a href="/rabotu">
-                        <h1>Логотип клиники «Виста»</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="last-novosti-odin" id="shipn-600">
-                <div class="dlya-hover-2">
-                    <a href="/rabotu">
-                        <h1>Логотип компании «Шипин Ю-эс»</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="last-novosti-odin" id="mimisocks-600">
-                <div class="dlya-hover-2">
-                    <a href="/rabotu">
-                        <h1>Логотип компании «Мимисокс»</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="last-novosti-odin" id="cloning-facility-600">
-                <div class="dlya-hover-2">
-                    <a href="/rabotu">
-                        <h1>Логотип компании «Клонинг фасилити»</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="last-novosti-odin" id="gazprom-eye-clinic-600">
-                <div class="dlya-hover-2">
-                    <a href="/rabotu">
-                        <h1>Сайт клиники микрохирургии глаза «Газпрома»</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="last-novosti-odin" id="kovodstvo6-600">
-                <div class="dlya-hover-2">
-                    <a href="/rabotu">
-                        <h1>Шестое издание «Ководства» Иванова</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="last-novosti-odin" id="drinks-app-600">
-                <div class="dlya-hover-2">
-                    <a href="/rabotu">
-                        <h1>Логотип приложения «Дринкс»</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="last-novosti-odin" id="abs-energo">
-                <div class="dlya-hover-2">
-                    <a href="/rabotu">
-                        <h1>Сайт «АБС Электро»</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="last-novosti-odin" id="design-system-600">
-                <div class="dlya-hover-2">
-                    <a href="/rabotu">
-                        <h1>Дизайн-система «Билайн-бизнеса»</h1>
-                    </a>
-                </div>
-            </div>
+            @endforeach
             
         </div>
         

@@ -1952,6 +1952,7 @@ ul{
     border: 2px solid #b75326;
     margin: 0.5% 1% 1% 0;
     letter-spacing: 1px;
+    border-radius: 20px;
 }
 
 .productu-odin-img p{
@@ -1979,6 +1980,8 @@ ul{
     background: linear-gradient(to right, #ffd3b1, #ffd3b196);
     width: 100%;
     height: 200px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
 }
 
 .productu-odin-img{

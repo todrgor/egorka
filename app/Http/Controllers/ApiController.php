@@ -8,7 +8,7 @@ class ApiController extends Controller
 {
     public function indexAction()
     {
-      return view('index');  
+      return view('index', ['index' => (new ArticleController()) -> show()]);  
     }
     
     public function testAction()
@@ -62,7 +62,7 @@ class ApiController extends Controller
     
     public function rabotuAction()
     {
-      return view('rabotu');  
+      return view('rabotu', ['rabotu' => (new ArticleController()) -> show()]);  
     }
     
     public function registraciyaAction()

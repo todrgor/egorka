@@ -52,6 +52,8 @@
     <body>
         <div class="hello-block-nashi-rabotu">
             <h1>Задизайнено</h1>
+            
+            
             <p>Почувствуй этот уровень</p>
         </div>
         
@@ -75,66 +77,14 @@
                 <li>Ещё</li>
             </ul>
             
-            <div class="nashi-rabotu-1-odin" id="argus">
+            @foreach($rabotu as $rabotu)
+            <div class="nashi-rabotu-1-odin" id="{{$rabotu->url_foto}}">
                 <div class="dlya-hover-3">
-                    <h1>Логотип компании «Агрус»</h1>
+                    <h1>{{$rabotu->title}}</h1>
                 </div>
             </div>
-            <div class="nashi-rabotu-1-odin" id="ten-fellas-600">
-                <div class="dlya-hover-3">
-                    <h1>Логотип барбершопа «Тен фэллас»</h1>
-                </div>
-            </div>
-            <div class="nashi-rabotu-1-odin" id="moscow-zoo-identity-animals">
-                <div class="dlya-hover-3">
-                    <h1>Бренд-стратегия и айдентика Московского зоопарка</h1>
-                </div>
-            </div>
-            <div class="nashi-rabotu-1-odin" id="vista-600b">
-                <div class="dlya-hover-3">
-                    <h1>Логотип клиники «Виста»</h1>
-                </div>
-            </div>
-            <div class="nashi-rabotu-1-odin" id="shipn-600">
-                <div class="dlya-hover-3">
-                    <h1>Логотип компании «Шипин Ю-эс»</h1>
-                </div>
-            </div>
-            <div class="nashi-rabotu-1-odin" id="mimisocks-600">
-                <div class="dlya-hover-3">
-                    <h1>Логотип компании «Мимисокс»</h1>
-                </div>
-            </div>
-            <div class="nashi-rabotu-1-odin" id="cloning-facility-600">
-                <div class="dlya-hover-3">
-                    <h1>Логотип компании «Клонинг фасилити»</h1>
-                </div>
-            </div>
-            <div class="nashi-rabotu-1-odin" id="gazprom-eye-clinic-600">
-                <div class="dlya-hover-3">
-                    <h1>Сайт клиники микрохирургии глаза «Газпрома»</h1>
-                </div>
-            </div>
-            <div class="nashi-rabotu-1-odin" id="kovodstvo6-600">
-                <div class="dlya-hover-3">
-                    <h1>Шестое издание «Ководства» Иванова</h1>
-                </div>
-            </div>
-            <div class="nashi-rabotu-1-odin" id="drinks-app-600">
-                <div class="dlya-hover-3">
-                    <h1>Логотип приложения «Дринкс»</h1>
-                </div>
-            </div>
-            <div class="nashi-rabotu-1-odin" id="abs-energo">
-                <div class="dlya-hover-3">
-                    <h1>Сайт «АБС Электро»</h1>
-                </div>
-            </div>
-            <div class="nashi-rabotu-1-odin" id="design-system-600">
-                <div class="dlya-hover-3">
-                    <h1>Дизайн-система «Билайн-бизнеса»</h1>
-                </div>
-            </div>
+            @endforeach
+            
         </div>
         
         
