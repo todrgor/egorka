@@ -40,7 +40,13 @@ Route::get ('/rabotu', 'ApiController@rabotuAction' );
 
 Route::get ('/registraciya', 'ApiController@registraciyaAction' );
 
-Route::get ('/vhod', 'ApiController@vhodAction' );
+Route::get ('/auth', 'AuthController@auth' );
+
+Route::get ('vhod', 'AuthController@vhod' );
+
+Route::midlleware (midlleware:'auth')->group(function(){
+    Route::get ('/logout', 'AuthController@logout' );
+});
 
 Route::get ('/zabul-parol', 'ApiController@zabul_parolAction' );
 

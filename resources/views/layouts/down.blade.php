@@ -66,7 +66,11 @@
                                     </div>
                                     <div class="accaunt-vozmozhnosti">
                                         <ul class="submenu-1">
-                                            <li><a href="/vhod">Войти</a></li>
+                                            @if (!Auth::check())
+                                                <li><a href="/auth">Войти</a></li>
+                                            @else
+                                                <li><a href="/logout">Выйти</a></li>
+                                            @endif
                                             <li><a href="/nastroyki">Настройки</a></li>
                                             <li><a href="/korzina">Корзина</a></li>
                                             <li><a href="/poisk">Поиск</a></li>

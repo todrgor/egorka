@@ -70,9 +70,9 @@ class ApiController extends Controller
       return view('registraciya');  
     }
     
-    public function vhodAction()
+    public function authAction()
     {
-      return view('vhod');  
+      return view('auth');  
     }
     
     public function zabul_parolAction()
